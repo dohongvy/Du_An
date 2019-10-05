@@ -1,0 +1,31 @@
+.type-1184 {
+  margin-top: 15%;
+  width: 100%;
+}
+.type-1184 .row span,
+.type-1184 .row h3 {
+  color: #73879c;
+}
+.type-1184 .row h3 {
+  font-size: 30px;
+  line-height: 30px;
+  margin: 3px 0 7px;
+  font-weight: 700;
+}
+.type-1184 .row #chartContainer1,
+.type-1184 .row #chartContainer2,
+.type-1184 .row #chartContainer3,
+.type-1184 .row #chartContainer4 {
+  height: 150px !important;
+}
+.highcharts-credits {
+  display: none !important;
+}
+@media only screen and (max-width: 823px) {
+  #chartContainer1,
+  #chartContainer2,
+  #chartContainer3,
+  #chartContainer4 {
+    margin-bottom: 20% !important;
+  }
+}
